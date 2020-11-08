@@ -3,12 +3,17 @@ import Head from 'next/head'
 
 import Logo from '../assets/logo.svg'
 import { Container } from '../styles/Home'
+import SEO from '../components/SEO'
 
 const Home: React.FC = () => {
   return (
     <Container>
+      <SEO
+        title="DevCommerce, o seu e-commerce top!"
+        image="boost.png"
+        shouldExcludeTitleSuffix
+      />
       <Head>
-        <title>HomePage</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
