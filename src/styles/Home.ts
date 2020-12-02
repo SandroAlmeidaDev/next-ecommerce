@@ -23,6 +23,13 @@ export const Container = styled.div`
     font-size: 24px;
     line-height: 32px;
   }
+  a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 32px;
+  }
   svg {
     display: block;
     margin-left: auto;
